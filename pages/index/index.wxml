@@ -1,0 +1,11 @@
+<view >
+    <view >
+      <view  wx:for-items="{{imageList}}" wx:key="{{item.id}}">
+         <navigator url="/pages/video/video" >
+          <view >
+            <image style="width: 100%;" src="./resources/pic/{{item.id}}"></image>
+          </view>
+        </navigator>
+      </view>
+    </view>
+</view>

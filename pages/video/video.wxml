@@ -1,0 +1,12 @@
+<view  data-weui-theme="{{theme}}">
+  <view >
+    <view >
+      <video style="width:100%" id="myVideo" 
+      src="https://www.aisharecloud.com/servlet-demo/videos/hiit1.mp4"
+      autoplay="true"
+       controls>
+       </video>
+      
+    </view>
+  </view>
+</view>
